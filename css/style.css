@@ -80,7 +80,7 @@ button:hover{
   background-size: absolute;
   background-position: center;
   background-repeat:no-repeat; 
-  position: relative;
+  position: fixed;
   overflow: hidden;
   width: 65%;
   height: 50%;
