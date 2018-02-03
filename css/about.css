@@ -26,6 +26,7 @@ button:hover{
 }
 body {
   color: #555;
+  color: #brown;
   font: 16px/22px "Proxima Nova", sans-serif;
   background: brown;
   padding: 50px;
@@ -79,7 +80,7 @@ h1 {
   transition: transform 1s ease, opacity 1s ease;
   transition: transform 1s ease, opacity 1s ease, -webkit-transform 1s ease;
   -webkit-transform: translateY(-40px);
-  transform: translateY(-40px);
+          transform: translateY(-40px);
   position: relative;
   box-sizing: border-box;
   width: 80%;
@@ -192,6 +193,7 @@ h1 {
 }
 
 .label {
+  display: normal;
   color: #f9f9fa;
   font-size: 11px;
   padding: 4px 8px;
@@ -206,4 +208,3 @@ h1 {
   padding: 1rem;
   background-color: #cccc;
   text-align: center;
-}
